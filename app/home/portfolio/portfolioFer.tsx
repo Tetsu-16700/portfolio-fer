@@ -106,7 +106,7 @@ function PortfolioPersonal() {
               , Desarrolladora Web
             </h2>
             {/* AQUI COMPLETAR MI VERDADERA DESCRIPCION */}
-            <p className="max-w-lg text-center text-slate-900 mt-4">
+            <p className="max-w-lg text-center text-slate-950 mt-4">
               Desarrolladora web junior con ocho años de experiencia en
               logística nacional e internacional. Destaco por mi enfoque en el
               desarrollo web, colaboración efectiva y comunicación con clientes.
@@ -140,29 +140,34 @@ function PortfolioPersonal() {
         {/* sobreMi */}
         {/* sobreMi */}
 
-        <div className=" mx- max-w-screen-lg px-4  ">
-          <p className="text-2xl uppercase mb-4">Sobre Mi</p>
-          <h2 className="text-4xl font-bold mb-2 ">
-            Hola, soy <span className="text-indigo-950">Fernada</span>
-          </h2>
-          <h3 className="text-xl font-semibold mb-4">Desarrolladora Web</h3>
+        <div className="flex flex-row-reverse">
+          <div className="mx- max-w-screen-lg px-4">
+            <p className="text-2xl uppercase mb-4">Sobre Mi</p>
+            <h2 className="text-4xl font-bold mb-2">
+              Hola, soy <span className="text-indigo-950">Fernanda</span>
+            </h2>
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-semibold">Desarrolladora Web</h3>
+              <div className="flex-grow" />
+            </div>
 
-          <p className="text-gray-500 mb-4 text-r">
-            Mi inmersión en el alucinante universo de la tecnología se inició
-            como una diminuta chispa de curiosidad ✨ para transformarse en una
-            apasionada llama 🔥. Desde el primer día, mi ímpetu ha sido una
-            insaciable sed de conocimiento 📚 y la incesante búsqueda de
-            desafíos innovadores 🌍.
-          </p>
-          <p className="text-gray-500 mb-4">
-            En calidad de Desarrollador Full Stack, he conquistado un extenso
-            panorama de tecnologías, abordando con mucha destreza:
+            <p className="text-gray-500 mb-4 text-justify">
+              Mi inmersión en el alucinante universo de la tecnología se inició
+              como una diminuta chispa de curiosidad ✨ para transformarse en
+              una apasionada llama 🔥. Desde el primer día, mi ímpetu ha sido
+              una insaciable sed de conocimiento 📚 y la incesante búsqueda de
+              desafíos innovadores 🌍.
+            </p>
+            <p className="text-gray-500 mb-4 text-justify">
+              En calidad de Desarrollador Full Stack, he conquistado un extenso
+              panorama de tecnologías, abordando con mucha destreza:
+            </p>
             <p>🚀 Backend🚀:</p>
             <ul>
               <li>JavaScript / Node.js</li>
               <li>Bases de datos: PostgreSQL, MySQL, SQLite</li>
             </ul>
-            <p>🎨Frontend🎨:</p>
+            <p>🎨 Frontend🎨:</p>
             <ul>
               <li>HTML5</li>
               <li>CSS</li>
@@ -170,18 +175,25 @@ function PortfolioPersonal() {
               <li>JavaScript</li>
               <li>React</li>
             </ul>
-          </p>
-          <p className="text-gray-500 mb-4">
-            Si estás en la búsqueda de un apasionado de la tecnología, me
-            encuentro aquí para elevar tus proyectos a una esfera superior.
-            ¡Unámonos para forjar juntos un legado tecnológico extraordinario!💪
-          </p>
-          <a
-            href="#"
-            className="btn-enviar inline-block px-8 py-3 bg-gray-200 text-gray-800 rounded-full uppercase font-bold transition duration-300 hover:bg-purple-400 hover:text-white"
-          >
-            Descargar CV
-          </a>
+
+            <p className="text-gray-500 mb-4 text-justify">
+              Si estás en la búsqueda de un apasionado de la tecnología, me
+              encuentro aquí para elevar tus proyectos a una esfera superior.
+              ¡Unámonos para forjar juntos un legado tecnológico
+              extraordinario!💪
+            </p>
+            <div className="flex justify-center">
+              <a
+                href="#"
+                className="btn-enviar inline-block px-8 py-3 bg-gray-200 text-gray-800 rounded-full uppercase font-bold transition duration-300 hover:bg-purple-400 hover:text-white"
+              >
+                Descargar CV
+              </a>
+            </div>
+          </div>
+          <div>
+            <p>imagen aquí</p>
+          </div>
         </div>
       </section>
 
