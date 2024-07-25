@@ -209,16 +209,33 @@ function PortfolioPersonal() {
             "url(https://online.york.ac.uk/wp-content/uploads/2023/05/software.jpg)",
         }}
       >
-        <h3 className="titulo-seccion text-2xl uppercase mb-12">
+        <h3 className="titulo-seccion text-2xl text-center  uppercase mb-12">
           MIS SERVICIOS
         </h3>
 
-        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-          <div className="servicio bg-white p-6 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+        <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className=" bg-white p-6 rounded-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+            <span className="flex  w-16 h-16 mx-auto bg-purple-600 rounded-full text-white mb-4">
+            
+            </span>
+            <h4 className="text-2xl font-bold mb-2 text-center">Diseño de Sitio Web</h4>
+            <hr className="border-b-2 border-purple-600 w-1/3 mx-auto mb-4" />
+            <ul className=" flex justify-center mb-4">
+              <li className="mr-2">Web</li>
+              <li className="mr-2">Graphic</li>
+              <li className="mr-2">SEO</li>
+            </ul>
+            {/* AQUI COLOCAR MI VERDADERA DESCRIPCION */}
+            <p className="text-gray-500 text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus reiciendis earum praesentium, sed
+            </p>
+          </div>
+          <div className=" bg-white p-6 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
             <span className="flex justify-center items-center w-16 h-16 mx-auto bg-purple-600 rounded-full text-white mb-4">
               <i className="fas fa-code text-3xl" />
             </span>
-            <h4 className="text-2xl font-bold mb-2">Diseño de Sitio Web</h4>
+            <h4 className="text-2xl font-bold mb-2 text-center">Diseño de Sitio Web</h4>
             <hr className="border-b-2 border-purple-600 w-1/3 mx-auto mb-4" />
             <ul className="servicios-tag flex justify-center mb-4">
               <li className="mr-2">Web</li>
@@ -235,24 +252,7 @@ function PortfolioPersonal() {
             <span className="flex justify-center items-center w-16 h-16 mx-auto bg-purple-600 rounded-full text-white mb-4">
               <i className="fas fa-code text-3xl" />
             </span>
-            <h4 className="text-2xl font-bold mb-2">Diseño de Sitio Web</h4>
-            <hr className="border-b-2 border-purple-600 w-1/3 mx-auto mb-4" />
-            <ul className="servicios-tag flex justify-center mb-4">
-              <li className="mr-2">Web</li>
-              <li className="mr-2">Graphic</li>
-              <li className="mr-2">SEO</li>
-            </ul>
-            {/* AQUI COLOCAR MI VERDADERA DESCRIPCION */}
-            <p className="text-gray-500 text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus reiciendis earum praesentium, sed
-            </p>
-          </div>
-          <div className="s bg-white p-6 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-            <span className="flex justify-center items-center w-16 h-16 mx-auto bg-purple-600 rounded-full text-white mb-4">
-              <i className="fas fa-code text-3xl" />
-            </span>
-            <h4 className="text-2xl font-bold mb-2">Diseño de Sitio Web</h4>
+            <h4 className="text-2xl font-bold mb-2 text-center">Diseño de Sitio Web</h4>
             <hr className="border-b-2 border-purple-600 w-1/3 mx-auto mb-4" />
             <ul className="servicios-tag flex justify-center mb-4">
               <li className="mr-2">Web</li>
@@ -289,28 +289,23 @@ function PortfolioPersonal() {
           {/* proyecto */}
           {/* proyecto */}
           {/* proyecto */}
-          <div className=" relative overflow-hidden">
-            <div className=" bg-black bg-opacity-75 absolute inset-0" />
-            {/* aqui poner imagen de proyecto */}
-            {/* <img src="../../assets/img/captura.png" alt="" className="w-full" /> */}
-            <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-75 text-white p-4 opacity-0 transition duration-300 ease-in-out">
-              <h4>Descripcion del Proyecto</h4>
-              <p>Diseño Web</p>
-            </div>
-          </div>
-          {/* proyecto */}
-          {/* proyecto */}
-          {/* proyecto */}
-          {/* proyecto */}
           <div className="relative overflow-hidden">
             {/* overlay */}
-            <div className="bg-black bg-opacity-75 absolute inset-0" />
+            <div className=" bg-black bg-opacity-75 absolute inset-0" />
             {/* aqui poner imagen de proyecto */}
             <img src="./assets/img/captura.png" alt="" className="w-full" />
-            {/* info */}
-            <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-75 text-white p-4 opacity-0 transition duration-300 ease-in-out">
-              <h4>Descripcion del Proyecto</h4>
-              <p>Diseño Web</p>
+            <div className=" bg-slate-200 p-6 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <span className="flex justify-center items-center w-16 h-16 mx-auto bg-purple-600 rounded-full text-white mb-4">
+                <i className="fas fa-code text-3xl" />
+              </span>
+              <h4 className="text-2xl font-bold mb-2 text-center">Diseño de Proyecto</h4>
+              <hr className="border-b-2 border-purple-600 w-1/3 mx-auto mb-4" />
+             
+              {/* AQUI COLOCAR MI VERDADERA DESCRIPCION */}
+              <p className="text-gray-500 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus reiciendis earum praesentium, sed
+              </p>
             </div>
           </div>
           {/* proyecto */}
@@ -322,11 +317,44 @@ function PortfolioPersonal() {
             <div className=" bg-black bg-opacity-75 absolute inset-0" />
             {/* aqui poner imagen de proyecto */}
             <img src="./assets/img/captura.png" alt="" className="w-full" />
-            <div className=" absolute bottom-0 left-0 w-full bg-black bg-opacity-75 text-white p-4 opacity-0 transition duration-300 ease-in-out">
-              <h4>Descripcion del Proyecto</h4>
-              <p>Diseño Web</p>
+            <div className=" bg-slate-200 p-6 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <span className="flex justify-center items-center w-16 h-16 mx-auto bg-purple-600 rounded-full text-white mb-4">
+                <i className="fas fa-code text-3xl" />
+              </span>
+              <h4 className="text-2xl font-bold mb-2 text-center">Diseño de Proyecto</h4>
+              <hr className="border-b-2 border-purple-600 w-1/3 mx-auto mb-4" />
+             
+              {/* AQUI COLOCAR MI VERDADERA DESCRIPCION */}
+              <p className="text-gray-500 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus reiciendis earum praesentium, sed
+              </p>
             </div>
           </div>
+          {/* proyecto */}
+          {/* proyecto */}
+          {/* proyecto */}
+          {/* proyecto */}
+          <div className="relative overflow-hidden">
+            {/* overlay */}
+            <div className=" bg-black bg-opacity-75 absolute inset-0" />
+            {/* aqui poner imagen de proyecto */}
+            <img src="./assets/img/captura.png" alt="" className="w-full" />
+            <div className=" bg-slate-200 p-6 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <span className="flex justify-center items-center w-16 h-16 mx-auto bg-purple-600 rounded-full text-white mb-4">
+                <i className="fas fa-code text-3xl" />
+              </span>
+              <h4 className="text-2xl font-bold mb-2 text-center">Diseño de Proyecto</h4>
+              <hr className="border-b-2 border-purple-600 w-1/3 mx-auto mb-4" />
+             
+              {/* AQUI COLOCAR MI VERDADERA DESCRIPCION */}
+              <p className="text-gray-500 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus reiciendis earum praesentium, sed
+              </p>
+            </div>
+          </div>
+          
         </div>
         {/* si exite varios proyectos aqui abajo incluirlos */}
       </section>
@@ -349,13 +377,13 @@ function PortfolioPersonal() {
                 type="text"
                 placeholder="Nombre Completo"
                 // input-mitad
-                className="w-1/2 py-4 px-6 rounded-lg border border-gray-300"
+                className="w-1/2 py-4 px-6 rounded-lg border border-gray-300 mb-2 "
               />
               <input
                 type="text"
                 placeholder="Direccion de Email"
                 // input-mitad
-                className="w-1/2 py-4 px-6 rounded-lg border border-gray-300"
+                className="w-1/2 py-4 px-6 rounded-lg border border-gray-300 "
               />
             </div>
             {/* fila */}
@@ -364,7 +392,7 @@ function PortfolioPersonal() {
               <input
                 type="text"
                 placeholder="Tema..."
-                className="w-full py-4 px-6 rounded-lg border border-gray-300"
+                className="w-full py-4 px-6 rounded-lg border border-gray-300 mb-2"
               />
             </div>
             {/* fila */}
